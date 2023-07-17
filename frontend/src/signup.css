@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.signup{
+   height: 100vh;
+   width: 100vw;
+   display: flex;
+   align-items: center;
+   justify-content: center; 
+    overflow: hidden;
+}
+.signupbg{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.container{
+    position: absolute;
+    width: 350px;
+    height: 500px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 30px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.head{
+    padding: 30px;
+}
+.email{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 70px;
+    padding: 0px 50px;
+}
+.email label{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.email input{
+    height: 35px;
+    padding: 0px 8px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    border: 3px solid black;
+}
+
+.pwd{
+    width: 100%;
+    margin-top: 20px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 50px;
+}
+.pwd label{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.pwd input{
+    height: 35px;
+    padding: 0px 8px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    border: 3px solid black;
+}
+
+.con-pwd{
+    width: 100%;
+    margin-top: 20px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 50px;
+}
+
+
+.con-pwd label{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.con-pwd input{
+    height: 35px;
+    padding: 0px 8px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    border: 3px solid black;
+}
+
+.signUp-btn{
+    width: 100%;
+    padding: 30px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signUp-btn .signup-link{
+    width: 100%;
+    height: auto;
+}
+.signUp-btn button{
+    width: 100%;
+    height: 30px;
+    background-color:#EE6B4D;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    border-radius: 5px;
+}
+
+.signUp-btn button:hover{
+    background-color: black;
+}

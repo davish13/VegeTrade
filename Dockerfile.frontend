@@ -1,0 +1,7 @@
+FROM node:19.9 AS frontend-build
+WORKDIR /app/frontend
+COPY frontend/package*.json ./
+RUN npm install
+COPY frontend .
+CMD ["npm","start"]
+

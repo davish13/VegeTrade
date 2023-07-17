@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.login{
+   height: 100vh;
+   width: 100vw;
+   display: flex;
+   align-items: center;
+   justify-content: center; 
+    overflow: hidden;
+}
+.loginbg{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.container{
+    position: absolute;
+    width: 350px;
+    height: 500px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 30px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.head{
+    padding: 30px;
+}
+.email{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 70px;
+    padding: 0px 50px;
+}
+.email label{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.email input{
+    height: 35px;
+    padding: 0px 8px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    border: 3px solid black;
+}
+
+.pwd{
+    width: 100%;
+    margin-top: 20px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 50px;
+}
+.pwd label{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.pwd input{
+    height: 35px;
+    padding: 0px 8px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    border: 3px solid black;
+}
+
+.signuplink{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signuplink h4{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.signuplink a{
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+
+.btn{
+    width: 100%;
+    margin-top: 15px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 50px;
+}
+.btn .btn-login{
+    width: 100%;
+    height: auto;
+}
+.btn .btn-login button{
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    background-color: #EE6B4D;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.btn button:hover{
+    background-color: black;
+}
